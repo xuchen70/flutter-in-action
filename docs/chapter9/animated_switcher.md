@@ -1,4 +1,4 @@
-# 9.6 通用"切换动画"组件（AnimatedSwitcher）
+# 9.6 通用“动画切换”组件（AnimatedSwitcher）
 
 实际开发中，我们经常会遇到切换UI元素的场景，比如Tab切换、路由切换。为了增强用户体验，通常在切换时都会指定一个动画，以使切换过程显得平滑。Flutter SDK组件库中已经提供了一些常用的切换组件，如`PageView`、`TabView`等，但是，这些组件并不能覆盖全部的需求场景，为此，Flutter SDK中提供了一个`AnimatedSwitcher`组件，它定义了一种通用的UI切换抽象。
 
@@ -111,11 +111,9 @@ class AnimatedSwitcherCounterRoute extends StatefulWidget {
 Widget _widget; //
 void didUpdateWidget(AnimatedSwitcher oldWidget) {
   super.didUpdateWidget(oldWidget);
-  // 检查新旧child是否发生变化(key或类型同时相等则返回true，认为没变化)
+  // 检查新旧child是否发生变化(key和类型同时相等则返回true，认为没变化)
   if (Widget.canUpdate(widget.child, oldWidget.child)) {
-    // child没变化
-    _childNumber += 1;
-    _addEntryForNewChild(animate: true);
+    // child没变化，...
   } else {
     //child发生了变化，构建一个Stack来分别给新旧child执行动画
    _widget= Stack(

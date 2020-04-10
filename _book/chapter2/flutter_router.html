@@ -18,32 +18,32 @@
     
     
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/style.css">
+    <link rel="stylesheet" href="https://pcdn.flutterchina.club/gitbook/style.css">
 
     
     
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-search-pro/search.css">
+    <link rel="stylesheet" href="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-search-pro/search.css">
     
     
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-ace/ace.css">
+    <link rel="stylesheet" href="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-ace/ace.css">
     
     
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-splitter/splitter.css">
+    <link rel="stylesheet" href="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-splitter/splitter.css">
     
     
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-prism/prism.css">
+    <link rel="stylesheet" href="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-prism/prism.css">
     
     
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-donate/plugin.css">
+    <link rel="stylesheet" href="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-donate/plugin.css">
     
     
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-fontsettings/website.css">
+    <link rel="stylesheet" href="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-fontsettings/website.css">
     
     
     
@@ -69,8 +69,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://pcdn.flutterchina.club/gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="https://pcdn.flutterchina.club/gitbook/images/favicon.ico" type="image/x-icon">
 
     
     <link rel="next" href="flutter_package_mgr.html" />
@@ -101,41 +101,76 @@
 
         .copyright {
             text-align: center;
-            margin: 80px 16px 30px 16px;
+            margin: 80px 16px 8px 16px;
             padding-top: 16px;
             border-top: #eee 1px solid;
             color: grey;
             font-size: .9em;
         }
 
-        .ad {
-            color: white;
-            text-align: center;
-            background: url(https://img.alicdn.com/tfs/TB1Huu7vMmTBuNjy1XbXXaMrVXa-2880-400.png);
-            background-size: cover;
-            cursor: pointer;
-            margin-bottom: 30px;
-            padding: 18px
+        .f-links a{
+            text-decoration: underline;
+            color: dodgerblue !important;
         }
 
-        .ad:hover {
-            opacity: .8;
+        .f-links a:hover{
+            opacity: .8 !important;
         }
+
+        /*.ad {*/
+            /*color: white;*/
+            /*text-align: center;*/
+            /*background: url(https://img.alicdn.com/tfs/TB1Huu7vMmTBuNjy1XbXXaMrVXa-2880-400.png);*/
+            /*background-size: cover;*/
+            /*cursor: pointer;*/
+            /*margin-bottom: 30px;*/
+            /*padding: 18px*/
+        /*}*/
+
+        /*.ad:hover {*/
+            /*opacity: .8;*/
+        /*}*/
+
+        .buy-btn {
+            text-decoration: none !important;
+            padding: 8px 18px;
+            border: #268bd2 1px solid !important;
+            display: inline-block !important;
+            border-radius: 25px;
+            color: #268bd2;
+            margin-top: 10px;
+        }
+
+        .buy-btn:hover {
+            transition: all ease 200ms;
+            box-shadow: #555 2px 5px 10px;
+            background: #eee;
+            color: dodgerblue !important;
+        }
+
+        .maoyun{
+            padding-top: 5px;
+        }
+
+
     </style>
 </head>
 <body>
 <!--<div id="ad" style="display: none">-->
-    <!--<div class="ad ad0"-->
-         <!--onclick="_track('aliyun','https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=8hhi4dts')">-->
-        <!--<div style="font-size: 1.3em; padding-right: 120px; position: relative; top: 12px">阿里云新春特惠</div>-->
-        <!--<div style="color:orange; font-size: 13px">限时红包 最高￥<span style="font-size: 40px">1888</span></div>-->
-    <!--</div>-->
-    <!--<div class="ad ad1"-->
-         <!--onclick="_track('aliyun-puhui','https://promotion.aliyun.com/ntms/act/qwbk.html?spm=5176.11533457.1089570.10.74e877e33jtaGy&userCode=8hhi4dts')">-->
-        <!--<div style="font-size: 1.5em;">阿里云全民云计算-新春特惠</div>-->
-        <!--<div style="color:orange; font-size: 18px;padding-top: 4px;">普惠上云，云服务器1核1G仅需293元/年</div>-->
-    <!--</div>-->
+<!--<div class="ad ad0"-->
+<!--onclick="_track('aliyun','https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=8hhi4dts')">-->
+<!--<div style="font-size: 1.3em; padding-right: 120px; position: relative; top: 12px">阿里云新春特惠</div>-->
+<!--<div style="color:orange; font-size: 13px">限时红包 最高￥<span style="font-size: 40px">1888</span></div>-->
 <!--</div>-->
+<!--<div class="ad ad1"-->
+<!--onclick="_track('aliyun-puhui','https://promotion.aliyun.com/ntms/act/qwbk.html?spm=5176.11533457.1089570.10.74e877e33jtaGy&userCode=8hhi4dts')">-->
+<!--<div style="font-size: 1.5em;">阿里云全民云计算-新春特惠</div>-->
+<!--<div style="color:orange; font-size: 18px;padding-top: 4px;">普惠上云，云服务器1核1G仅需293元/年</div>-->
+<!--</div>-->
+<!--</div>-->
+
+<div class="ad"  style="text-align:center; padding-bottom:30px; display: none"><a href="https://item.jd.com/12816296.html" onclick="buy('img')" title='点击购买' target="_blank"><img style="height:250px;box-shadow: #aaa 5px 5px 10px;" src="https://pcdn.flutterchina.club/imgs/book.png"/></a>  <br/> <a class="buy-btn" onclick="buy('img')" href="https://item.jd.com/12816296.html" title='点击购买' target="_blank"> 购买实体书 </a></div>
+
 
 <div class="book">
     <div class="book-summary">
@@ -1056,7 +1091,7 @@
                 <a href="../chapter9/animated_switcher.html">
             
                     
-                    9.6：通用"切换动画"组件（AnimatedSwitcher）
+                    9.6：通用“动画切换”组件（AnimatedSwitcher）
             
                 </a>
             
@@ -1664,7 +1699,7 @@
     <li class="divider"></li>
 
     <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+        <a href="https://www.gitbook.com" target="blank" class="https://pcdn.flutterchina.club/gitbook-link">
             本书使用 GitBook 发布
         </a>
     </li>
@@ -1750,7 +1785,7 @@
  <span class="token punctuation">)</span>
 </code></pre>
 <p>&#x6211;&#x4EEC;&#x6DFB;&#x52A0;&#x4E86;&#x4E00;&#x4E2A;&#x6253;&#x5F00;&#x65B0;&#x8DEF;&#x7531;&#x7684;&#x6309;&#x94AE;&#xFF0C;&#x5E76;&#x5C06;&#x6309;&#x94AE;&#x6587;&#x5B57;&#x989C;&#x8272;&#x8BBE;&#x7F6E;&#x4E3A;&#x84DD;&#x8272;&#xFF0C;&#x70B9;&#x51FB;&#x8BE5;&#x6309;&#x94AE;&#x540E;&#x5C31;&#x4F1A;&#x6253;&#x5F00;&#x65B0;&#x7684;&#x8DEF;&#x7531;&#x9875;&#x9762;&#xFF0C;&#x6548;&#x679C;&#x5982;&#x56FE;2-2&#x548C;2-3&#x6240;&#x793A;&#x3002;</p>
-<p><img src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/docs/imgs/2-2.png" alt="&#x56FE;2-2"> <img src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/docs/imgs/2-3.png" alt="&#x56FE;2-3"></p>
+<p><img src="https://pcdn.flutterchina.club/imgs/2-2.png" alt="&#x56FE;2-2"> <img src="https://pcdn.flutterchina.club/imgs/2-3.png" alt="&#x56FE;2-3"></p>
 </li>
 </ol>
 <h2 id="222-materialpageroute">2.2.2 MaterialPageRoute</h2>
@@ -1786,7 +1821,7 @@
 <h3 id="&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;">&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;</h3>
 <p>Navigator&#x7C7B;&#x4E2D;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x4E3A;context&#x7684;<strong>&#x9759;&#x6001;&#x65B9;&#x6CD5;</strong>&#x90FD;&#x5BF9;&#x5E94;&#x4E00;&#x4E2A;Navigator&#x7684;<strong>&#x5B9E;&#x4F8B;&#x65B9;&#x6CD5;</strong>&#xFF0C; &#x6BD4;&#x5982;<code>Navigator.push(BuildContext context, Route route)</code>&#x7B49;&#x4EF7;&#x4E8E;<code>Navigator.of(context).push(Route route)</code> &#xFF0C;&#x4E0B;&#x9762;&#x547D;&#x540D;&#x8DEF;&#x7531;&#x76F8;&#x5173;&#x7684;&#x65B9;&#x6CD5;&#x4E5F;&#x662F;&#x4E00;&#x6837;&#x7684;&#x3002;</p>
 <h2 id="224-&#x8DEF;&#x7531;&#x4F20;&#x503C;">2.2.4 &#x8DEF;&#x7531;&#x4F20;&#x503C;</h2>
-<p>&#x5F88;&#x591A;&#x65F6;&#x5019;&#xFF0C;&#x5728;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;&#x65F6;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5E26;&#x4E00;&#x4E9B;&#x53C2;&#x6570;&#xFF0C;&#x6BD4;&#x5982;&#x6253;&#x5F00;&#x5546;&#x54C1;&#x8BE6;&#x60C5;&#x9875;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5E26;&#x4E00;&#x4E2A;&#x5546;&#x54C1;id&#xFF0C;&#x8FD9;&#x6837;&#x5546;&#x54C1;&#x8BE6;&#x60C5;&#x9875;&#x624D;&#x77E5;&#x9053;&#x5C55;&#x793A;&#x54EA;&#x4E2A;&#x5546;&#x54C1;&#x4FE1;&#x606F;&#xFF1B;&#x53C8;&#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x5728;&#x586B;&#x5199;&#x8BA2;&#x5355;&#x65F6;&#x9700;&#x8981;&#x9009;&#x62E9;&#x6536;&#x8D27;&#x5730;&#x5740;&#xFF0C;&#x6253;&#x5F00;&#x5730;&#x5740;&#x9009;&#x62E9;&#x9875;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x7528;&#x6237;&#x9009;&#x62E9;&#x7684;&#x5730;&#x5740;&#x8FD4;&#x56DE;&#x5230;&#x8BA2;&#x5355;&#x9875;&#x7B49;&#x7B49;&#x3002;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x793A;&#x4F8B;&#x6765;&#x6F14;&#x793A;&#x65B0;&#x65E7;&#x8DEF;&#x7531;&#x5982;&#x4F55;&#x4F20;&#x53C2;&#x3002;</p>
+<p>&#x5F88;&#x591A;&#x65F6;&#x5019;&#xFF0C;&#x5728;&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;&#x65F6;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5E26;&#x4E00;&#x4E9B;&#x53C2;&#x6570;&#xFF0C;&#x6BD4;&#x5982;&#x6253;&#x5F00;&#x5546;&#x54C1;&#x8BE6;&#x60C5;&#x9875;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5E26;&#x4E00;&#x4E2A;&#x5546;&#x54C1;id&#xFF0C;&#x8FD9;&#x6837;&#x5546;&#x54C1;&#x8BE6;&#x60C5;&#x9875;&#x624D;&#x77E5;&#x9053;&#x5C55;&#x793A;&#x54EA;&#x4E2A;&#x5546;&#x54C1;&#x4FE1;&#x606F;&#xFF1B;&#x53C8;&#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x5728;&#x586B;&#x5199;&#x8BA2;&#x5355;&#x65F6;&#x9700;&#x8981;&#x9009;&#x62E9;&#x6536;&#x8D27;&#x5730;&#x5740;&#xFF0C;&#x6253;&#x5F00;&#x5730;&#x5740;&#x9009;&#x62E9;&#x9875;&#x5E76;&#x9009;&#x62E9;&#x5730;&#x5740;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x5C06;&#x7528;&#x6237;&#x9009;&#x62E9;&#x7684;&#x5730;&#x5740;&#x8FD4;&#x56DE;&#x5230;&#x8BA2;&#x5355;&#x9875;&#x7B49;&#x7B49;&#x3002;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x793A;&#x4F8B;&#x6765;&#x6F14;&#x793A;&#x65B0;&#x65E7;&#x8DEF;&#x7531;&#x5982;&#x4F55;&#x4F20;&#x53C2;&#x3002;</p>
 <h3 id="&#x793A;&#x4F8B;">&#x793A;&#x4F8B;</h3>
 <p>&#x6211;&#x4EEC;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;<code>TipRoute</code>&#x8DEF;&#x7531;&#xFF0C;&#x5B83;&#x63A5;&#x53D7;&#x4E00;&#x4E2A;&#x63D0;&#x793A;&#x6587;&#x672C;&#x53C2;&#x6570;&#xFF0C;&#x8D1F;&#x8D23;&#x5C06;&#x4F20;&#x5165;&#x5B83;&#x7684;&#x6587;&#x672C;&#x663E;&#x793A;&#x5728;&#x9875;&#x9762;&#x4E0A;&#xFF0C;&#x53E6;&#x5916;<code>TipRoute</code>&#x4E2D;&#x6211;&#x4EEC;&#x6DFB;&#x52A0;&#x4E00;&#x4E2A;&#x201C;&#x8FD4;&#x56DE;&#x201D;&#x6309;&#x94AE;&#xFF0C;&#x70B9;&#x51FB;&#x540E;&#x5728;&#x8FD4;&#x56DE;&#x4E0A;&#x4E00;&#x4E2A;&#x8DEF;&#x7531;&#x7684;&#x540C;&#x65F6;&#x4F1A;&#x5E26;&#x4E0A;&#x4E00;&#x4E2A;&#x8FD4;&#x56DE;&#x53C2;&#x6570;&#xFF0C;&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x770B;&#x4E00;&#x4E0B;&#x5B9E;&#x73B0;&#x4EE3;&#x7801;&#x3002;</p>
 <p><code>TipRoute</code>&#x5B9E;&#x73B0;&#x4EE3;&#x7801;&#xFF1A;</p>
@@ -1850,7 +1885,7 @@
 <span class="token punctuation">}</span>
 </code></pre>
 <p>&#x8FD0;&#x884C;&#x4E0A;&#x9762;&#x4EE3;&#x7801;&#xFF0C;&#x70B9;&#x51FB;<code>RouterTestRoute</code>&#x9875;&#x7684;&#x201C;&#x6253;&#x5F00;&#x63D0;&#x793A;&#x9875;&#x201D;&#x6309;&#x94AE;&#xFF0C;&#x4F1A;&#x6253;&#x5F00;<code>TipRoute</code>&#x9875;&#xFF0C;&#x8FD0;&#x884C;&#x6548;&#x679C;&#x5982;&#x56FE;2-4&#x6240;&#x793A;&#x4E0B;&#xFF1A;</p>
-<p><img src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/docs/imgs/2-4.png" alt="&#x56FE;2-4"></p>
+<p><img src="https://pcdn.flutterchina.club/imgs/2-4.png" alt="&#x56FE;2-4"></p>
 <p>&#x9700;&#x8981;&#x8BF4;&#x660E;&#xFF1A;</p>
 <ol>
 <li><p>&#x63D0;&#x793A;&#x6587;&#x6848;&#x201C;&#x6211;&#x662F;&#x63D0;&#x793A;xxxx&#x201D;&#x662F;&#x901A;&#x8FC7;<code>TipRoute</code>&#x7684;<code>text</code>&#x53C2;&#x6570;&#x4F20;&#x9012;&#x7ED9;&#x65B0;&#x8DEF;&#x7531;&#x9875;&#x7684;&#x3002;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7B49;&#x5F85;<code>Navigator.push(&#x2026;)</code>&#x8FD4;&#x56DE;&#x7684;<code>Future</code>&#x6765;&#x83B7;&#x53D6;&#x65B0;&#x8DEF;&#x7531;&#x7684;&#x8FD4;&#x56DE;&#x6570;&#x636E;&#x3002;</p>
@@ -1877,7 +1912,7 @@ I/flutter (27896): &#x8DEF;&#x7531;&#x8FD4;&#x56DE;&#x503C;: null
   <span class="token punctuation">)</span><span class="token punctuation">,</span>
   <span class="token comment">//&#x6CE8;&#x518C;&#x8DEF;&#x7531;&#x8868;</span>
   routes<span class="token punctuation">:</span><span class="token punctuation">{</span>
-   <span class="token string">&quot;new_page&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">&gt;</span><span class="token function">NewRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+   <span class="token string">&quot;new_page&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">NewRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
     <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span> <span class="token comment">// &#x7701;&#x7565;&#x5176;&#x5B83;&#x8DEF;&#x7531;&#x6CE8;&#x518C;&#x4FE1;&#x606F;</span>
   <span class="token punctuation">}</span> <span class="token punctuation">,</span>
   home<span class="token punctuation">:</span> <span class="token function">MyHomePage</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token string">&apos;Flutter Demo Home Page&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
@@ -1892,8 +1927,8 @@ I/flutter (27896): &#x8DEF;&#x7531;&#x8FD4;&#x56DE;&#x503C;: null
   <span class="token punctuation">)</span><span class="token punctuation">,</span>
   <span class="token comment">//&#x6CE8;&#x518C;&#x8DEF;&#x7531;&#x8868;</span>
   routes<span class="token punctuation">:</span><span class="token punctuation">{</span>
-   <span class="token string">&quot;new_page&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">&gt;</span><span class="token function">NewRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
-   <span class="token string">&quot;/&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">MyHomePage</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token string">&apos;Flutter Demo Home Page&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">//&#x6CE8;&#x518C;&#x9996;&#x9875;&#x8DEF;&#x7531;</span>
+   <span class="token string">&quot;new_page&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">NewRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+   <span class="token string">&quot;/&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">MyHomePage</span><span class="token punctuation">(</span>title<span class="token punctuation">:</span> <span class="token string">&apos;Flutter Demo Home Page&apos;</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token comment">//&#x6CE8;&#x518C;&#x9996;&#x9875;&#x8DEF;&#x7531;</span>
   <span class="token punctuation">}</span> 
 <span class="token punctuation">)</span><span class="token punctuation">;</span>
 </code></pre>
@@ -1906,8 +1941,8 @@ I/flutter (27896): &#x8DEF;&#x7531;&#x8FD4;&#x56DE;&#x503C;: null
 <pre class="language-"><code class="lang-dart">onPressed<span class="token punctuation">:</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
   Navigator<span class="token punctuation">.</span><span class="token function">pushNamed</span><span class="token punctuation">(</span>context<span class="token punctuation">,</span> <span class="token string">&quot;new_page&quot;</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
   <span class="token comment">//Navigator.push(context,</span>
-  <span class="token comment">//  new MaterialPageRoute(builder: (context) {</span>
-  <span class="token comment">//  return new NewRoute();</span>
+  <span class="token comment">//  MaterialPageRoute(builder: (context) {</span>
+  <span class="token comment">//  return NewRoute();</span>
   <span class="token comment">//}));  </span>
 <span class="token punctuation">}</span><span class="token punctuation">,</span>
 </code></pre>
@@ -1916,7 +1951,7 @@ I/flutter (27896): &#x8DEF;&#x7531;&#x8FD4;&#x56DE;&#x503C;: null
 <p>&#x5728;Flutter&#x6700;&#x521D;&#x7684;&#x7248;&#x672C;&#x4E2D;&#xFF0C;&#x547D;&#x540D;&#x8DEF;&#x7531;&#x662F;&#x4E0D;&#x80FD;&#x4F20;&#x9012;&#x53C2;&#x6570;&#x7684;&#xFF0C;&#x540E;&#x6765;&#x624D;&#x652F;&#x6301;&#x4E86;&#x53C2;&#x6570;&#xFF1B;&#x4E0B;&#x9762;&#x5C55;&#x793A;&#x547D;&#x540D;&#x8DEF;&#x7531;&#x5982;&#x4F55;&#x4F20;&#x9012;&#x5E76;&#x83B7;&#x53D6;&#x8DEF;&#x7531;&#x53C2;&#x6570;&#xFF1A;</p>
 <p>&#x6211;&#x4EEC;&#x5148;&#x6CE8;&#x518C;&#x4E00;&#x4E2A;&#x8DEF;&#x7531;&#xFF1A;</p>
 <pre class="language-"><code class="lang-dart"> routes<span class="token punctuation">:</span><span class="token punctuation">{</span>
-   <span class="token string">&quot;new_page&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token operator">=</span><span class="token operator">&gt;</span><span class="token function">EchoRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
+   <span class="token string">&quot;new_page&quot;</span><span class="token punctuation">:</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span> <span class="token operator">=</span><span class="token operator">&gt;</span> <span class="token function">EchoRoute</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">,</span>
   <span class="token punctuation">}</span> <span class="token punctuation">,</span>
 </code></pre>
 <p>&#x5728;&#x8DEF;&#x7531;&#x9875;&#x901A;&#x8FC7;<code>RouteSetting</code>&#x5BF9;&#x8C61;&#x83B7;&#x53D6;&#x8DEF;&#x7531;&#x53C2;&#x6570;&#xFF1A;</p>
@@ -1925,7 +1960,7 @@ I/flutter (27896): &#x8DEF;&#x7531;&#x8FD4;&#x56DE;&#x503C;: null
   <span class="token metadata symbol">@override</span>
   Widget <span class="token function">build</span><span class="token punctuation">(</span>BuildContext context<span class="token punctuation">)</span> <span class="token punctuation">{</span>
     <span class="token comment">//&#x83B7;&#x53D6;&#x8DEF;&#x7531;&#x53C2;&#x6570;  </span>
-    <span class="token keyword">var</span> args<span class="token operator">=</span>ModalRoute<span class="token punctuation">.</span><span class="token function">of</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">.</span>settings<span class="token punctuation">.</span>arguments
+    <span class="token keyword">var</span> args<span class="token operator">=</span>ModalRoute<span class="token punctuation">.</span><span class="token function">of</span><span class="token punctuation">(</span>context<span class="token punctuation">)</span><span class="token punctuation">.</span>settings<span class="token punctuation">.</span>arguments<span class="token punctuation">;</span>
     <span class="token comment">//...&#x7701;&#x7565;&#x65E0;&#x5173;&#x4EE3;&#x7801;</span>
   <span class="token punctuation">}</span>
 <span class="token punctuation">}</span>
@@ -2017,126 +2052,75 @@ I/flutter (27896): &#x8DEF;&#x7531;&#x8FD4;&#x56DE;&#x503C;: null
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2.2：路由管理","level":"2.2.2","depth":2,"next":{"title":"2.3：包管理","level":"2.2.3","depth":2,"path":"chapter2/flutter_package_mgr.md","ref":"chapter2/flutter_package_mgr.md","articles":[]},"previous":{"title":"2.1：计数器示例","level":"2.2.1","depth":2,"path":"chapter2/first_flutter_app.md","ref":"chapter2/first_flutter_app.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","search-pro","ace","splitter","prism","donate","-highlight"],"root":"docs","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{"lang":{"shell":"bash"}},"ace":{},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action@1.0.3/docs/imgs/pay.jpeg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"wendux 824783146@qq.com","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"《Flutter实战》","language":"zh-hans","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"<div><img height=20 style='position:relative; top:5px; padding-right:5px ' src='https://cdn.jsdelivr.net/gh/flutterchina/website@1.0/images/favicon.png'/> Flutter中文网</div>":"https://flutterchina.club"}},"gitbook":"*","description":"记录Gitbook的配置和一些插件的使用"},"file":{"path":"chapter2/flutter_router.md","mtime":"2019-10-08T04:32:36.087Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-18T06:29:42.288Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"2.2：路由管理","level":"2.2.2","depth":2,"next":{"title":"2.3：包管理","level":"2.2.3","depth":2,"path":"chapter2/flutter_package_mgr.md","ref":"chapter2/flutter_package_mgr.md","articles":[]},"previous":{"title":"2.1：计数器示例","level":"2.2.1","depth":2,"path":"chapter2/first_flutter_app.md","ref":"chapter2/first_flutter_app.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-search","search-pro","ace","splitter","prism","donate","-highlight"],"root":"docs","styles":{"website":"styles/website.css","ebook":"styles/ebook.css","pdf":"styles/pdf.css","mobi":"styles/mobi.css","epub":"styles/epub.css"},"pluginsConfig":{"prism":{"lang":{"shell":"bash"}},"ace":{},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"donate":{"alipay":"","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action@1.0.3/docs/imgs/pay.jpeg","wechatText":"微信打赏"},"fontsettings":{"theme":"white","family":"sans","size":2},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"wendux 824783146@qq.com","bookRoot":"https://book.flutterchina.club/","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"《Flutter实战》","language":"zh-hans","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"<div><img height=20 style='position:relative; top:5px; padding-right:5px ' src='https://cdn.jsdelivr.net/gh/flutterchina/website@1.0/images/favicon.png'/> Flutter中文网</div>":"https://flutterchina.club"}},"gitbook":"*","description":"记录Gitbook的配置和一些插件的使用"},"file":{"path":"chapter2/flutter_router.md","mtime":"2019-11-25T08:35:49.892Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-15T14:52:22.710Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
 
 
 
-    <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/theme.js"></script>
+    <script src="https://pcdn.flutterchina.club/gitbook/gitbook.js"></script>
+    <script src="https://pcdn.flutterchina.club/gitbook/theme.js"></script>
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
-        
-    
-        
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-search-pro/search.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-search-pro/search.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-ace/ace.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-ace/ace/ace.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-ace/ace.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-donate/plugin.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-splitter/splitter.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-donate/plugin.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
         
     
         
-        <script src="https://cdn.jsdelivr.net/gh/flutterchina/flutter-in-action/_book/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="https://pcdn.flutterchina.club/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
         
     
 
 
+<script src="https://pcdn.flutterchina.club/gitbook/pub.js"></script>
 <script>
-    var _hmt = _hmt || [];
-    $("#bd").remove();
-    (function () {
-        var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?170231fea4f81697eb046edc1a91fe5b";
-        var s = document.getElementsByTagName("script")[0];
-        hm.id = "bd"
-        s.parentNode.insertBefore(hm, s);
-    })();
-
-    function init() {
-        var p = location.pathname;
-        _hmt.push(['_trackPageview', p]);
-        if (p[p.length - 1] === '/') {
-            p += "index.md"
-        } else {
-            p = p.split(".")[0] + ".md";
+    hookAjax({
+        open: function (arg, xhr) {
+            if (location.hostname !== 'localhost') {
+                if (arg[1][0] === '.') arg[1] = arg[1].slice(1);
+                arg[1] = "https://pcdn.flutterchina.club" + arg[1].replace(".html", ".1")
+            }
+        },
+        setRequestHeader: function (arg, xhr) {
+            console.log(arg[0], arg[1]);
+            if (arg[0] !== 'Accept') return true;
+        },
+        onload:function(){
+            setTimeout(addAD);
         }
-        p = "https://github.com/flutterchina/flutter-in-action/blob/master/docs" + p;
-        $(".pull-right .fa-edit").parent("a").attr("href", p);
-        $("table").wrap("<div style='overflow: auto'></div>");
-        //百度统计
-        var e = /([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi, r = window.location.href,
-            t = document.referrer;
-        if (!e.test(r)) {
-            var o = "https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif";
-            t ? (o += "?r=" + encodeURIComponent(document.referrer), r && (o += "&l=" + r)) : r && (o += "?l=" + r);
-            var i = new Image;
-            i.src = o
-        }
-        $(".copyright").remove();
-        $("<div class='copyright'> 本书仍在勘误阶段，请勿以任何形式私自传播，作者保留对本书的版权。</div>").appendTo(".page-inner");
-    }
-
-    function hookAPI(api, ob, fn) {
-        return function () {
-            var result = api.apply(ob, [].slice.call(arguments));
-            setTimeout(fn, 1000);
-            return result;
-        }
-    }
-
-    function addAD() {
-        if (location.href !== 'https://book.flutterchina.club/' && $("#book-search-results .ad").length == 0) {
-            var id=Math.ceil(Math.random()*10)%2;
-            $(".ad"+id).clone().hide().fadeIn().prependTo("#book-search-results")
-            setTimeout(function () {
-                $(".body-inner").animate({scrollTop: 0}, 200)
-            }, 800);
-        }
-    }
-
-    function _track(p,url) {
-        _hmt.push(['_trackEvent', 'ad', 'click', p]);
-        setTimeout(function () {
-            location.href = url
-        }, 100);
-    }
-
-    // setInterval(addAD, 300);
-
-    init();
-
-    if (history.pushState) {
-        history.pushState = hookAPI(history.pushState, history, init);
-    }
-
+    })
 </script>
 </body>
 
